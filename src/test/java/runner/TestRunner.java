@@ -23,7 +23,7 @@ import stepDefinitions.BasePage;
 		monochrome = true,
 		dryRun = false
 		)
-
+//testing git
 public class TestRunner {
 	
 	@AfterClass
