@@ -18,5 +18,9 @@ public class LoginScenario extends BasePage {
 		logOps.enterPassword(pwd);
 		Thread.sleep(3000);
 	}
+	
+	public void conflict_test() {
+		System.out.println("Master commit");
+	}
 
 }
