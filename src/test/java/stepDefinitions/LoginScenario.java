@@ -17,7 +17,6 @@ public class LoginScenario extends BasePage {
 	public void user_enters_the_password_as(String pwd) throws Throwable {
 		logOps.enterPassword(pwd);
 		Thread.sleep(3000);
-		System.out.println("Hello from Master");
 	}
 
 }
